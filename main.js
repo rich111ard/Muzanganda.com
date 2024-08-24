@@ -59,5 +59,7 @@ document.addEventListener("scroll", function() {
     // Mute video if it's outside the viewport, unmute if inside
     if (!inViewport) {
         video.muted = true;
-    } 
+    } else{
+        video.muted = false;
+    }
 });
